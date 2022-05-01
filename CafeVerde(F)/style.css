@@ -1,0 +1,625 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body{
+  background-color: #f1ebd4;
+
+}
+
+/* ===================== start design for smart phone========================= */
+
+.h2{
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.658);
+  text-align: center;
+}
+/* start header */
+header{
+  background-color: #fffef8;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+
+}
+
+#header-container{
+display: flex;
+justify-content:space-between;
+align-items: center;
+/* margin: 0 10px 0; */
+padding: 10px 10px 10px;
+
+}
+#top-logo{
+  width:120px;
+  text-align: center;
+
+}
+
+#leaf-logo{
+  width: 55px;
+  margin-right: 60px;
+}
+
+.mediaLinks ul li{
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 20px;
+  padding:5px;
+}
+
+.mediaLinks ul li a{
+ color: black;
+}
+
+.fa-facebook:hover{
+  color: #3b5998;
+}
+.fa-instagram:hover{
+  color: #2c6a93;
+}
+
+/* End header */
+
+/* Start main */
+/* Start menu */
+.container{
+
+}
+
+#h2-menu{
+
+  color: #8dbf4b;
+  margin: 5px auto 5px;
+}
+#menu-container{ /* NOTE: parent div */
+
+  text-align: center;
+}
+
+#menu-div{
+
+  width: 95%;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+}
+.menu{
+  width: 100%;
+  border: 3px solid #8dbf4b;
+  border-radius: 20px;
+}
+/* End menu */
+
+/* Start specials */
+#h2-specials{
+
+  color:#efc850;
+  margin: 5px auto 5px;
+  position: relative;
+}
+#h2-specials:before{
+  content: '';
+  display:block;
+  width: 34%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  z-index: -2;
+}
+#h2-specials:after{
+  content: '';
+  display:block;
+  width: 34%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  right : 0%;
+  top: 45%;
+  z-index: -2;
+}
+
+
+
+
+
+
+#specials-containe {
+display: flex;
+}
+
+/* Create two equal columns that floats next to each other */
+#specials-containe .column {
+
+  float: left;
+  width: 50%;
+  padding: 10px;
+margin: 5px 5px;
+text-align: center;
+
+}
+
+/* Clear floats after the columns */
+#specials-containe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#specials-containe .top-left {
+
+}
+#specials-containe .bottom-left {
+
+}
+
+#specials-containe .col-right {
+padding-top: 8%;
+}
+
+#specials-containe .top-left img{
+width:85%;
+border-radius: 10%;
+border: solid 2px #efc850;
+}
+
+#specials-containe .bottom-left img{
+width:85%;
+border-radius: 10%;
+border: solid 2px #efc850;
+}
+
+#specials-containe .col-right img{
+width:100%;
+height: 90%;
+border: 3px solid #efc850;
+border-radius: 5%;
+
+}
+/*  ==============================================================================================================================*/
+
+/* End specials */
+
+
+
+
+
+/* Start About */
+#h2-about{
+  color:#8dbf4b;
+  margin: 10px auto 5px;
+  position: relative;
+}
+
+#h2-about{
+  color:#8dbf4b;
+  margin: 10px auto 5px;
+  position: relative;
+}
+#h2-about:before{
+  content: '';
+  display:block;
+  width: 42%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  z-index: -2;
+}
+#h2-about:after{
+  content: '';
+  display:block;
+  width:42%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  right : 0%;
+  top: 45%;
+  z-index: -2;
+}
+#about-container{
+
+  text-align: center;
+}
+#about-div{
+
+  width: 100%;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+}
+#about-top-content{
+
+  width: 80%;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+}
+
+#verde-about-logo{
+  width: 50%;
+}
+#about-text{
+  padding: 10px;
+  background-color: #fffef8;
+  border: solid 2px #8dbf4b;
+  border-radius: 20px;
+  font-size:14px;
+}
+#about-text b{
+  color: #8dbf4b;
+  text-shadow: .5px .5px .5px rgba(31, 31, 31, 0.658);
+}
+
+#about-bottom-content{
+
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+  width: 90%;
+  margin: 10px;
+}
+#about-img-div{
+  display: flex;
+}
+.about-images{
+  width: 90%;
+  border-radius: 20%;
+}
+/* End About */
+
+/* Start Contact */
+#h2-contact{
+  color:#8dbf4b;
+  margin: 10px auto 5px;
+  position: relative;
+}
+#h2-contact:before{
+  content: '';
+  display:block;
+  width: 32%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  z-index: -2;
+}
+
+#h2-contact:after{
+  content: '';
+  display:block;
+  width: 32%;
+  height: 3px;
+  background: #8dbf4b;
+  position: absolute;
+  right : 0%;
+  top: 45%;
+  z-index: -2;
+}
+
+#contact-container{
+
+  text-align: center;
+}
+#contact-div{
+  border: solid 2px #8dbf4b;
+  width: 90%;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+
+  background-color:#fffef8;
+  border-radius: 20px;
+}
+#contact-div div{
+  display: block; /* NOTE: change to flex in bigger screen */
+}
+#contact-info p{
+  font-size: 20px;
+
+}
+/* End Contact */
+/* Start Footer */
+#footer-container{
+
+  text-align: center;
+  background-color: #fcf9eb;
+}
+
+#footer-div{
+
+  width: 90%;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+  font-size: 12px;
+}
+/* End Footer */
+
+/* End main */
+
+
+/* ========================================================================= */
+/* =====================Start min 400px ==================================== */
+@media screen and (max-width:400px){
+  #top-logo{
+    width:100px;
+    text-align: center;
+
+  }
+
+  #leaf-logo{
+    width: 50px;
+    margin-right: 50px;
+  }
+
+  .mediaLinks ul li{
+    font-size: 15px;
+    padding:5px;
+  }
+
+
+  /* End header */
+}
+/* =====================end min 400px ==================================== */
+
+/* =====================Start min 320px ==================================== */
+@media screen and (max-width:320px){
+  body{
+    width: 320px;
+  }
+  /* start header */
+  #top-logo{
+    width:80px;
+    text-align: center;
+
+  }
+
+  #leaf-logo{
+    width: 40px;
+    margin-right: 20px;
+  }
+
+  .mediaLinks ul li{
+    font-size: 15px;
+    padding:5px;
+  }
+  /* End header */
+  .container{
+    width: 320px;
+    margin: 0 auto;
+  }
+  /* Start menu */
+
+#h2-menu{
+
+  margin: 5px auto 5px;
+}
+#menu-container{ /* NOTE: parent div */
+  border: solid 2px lightblue;
+  text-align: center;
+}
+
+#menu-div{
+  border: solid 2px lime;
+  width: 320px;
+  display: inline-block;
+  vertical-align: top; /* NOTE: fixed issue */
+}
+.menu{
+  width: 320px;
+  border: 2px solid #8dbf4b;
+  border-radius: 20px;
+}
+/* End menu */
+}
+/* =====================end min 400px ==================================== */
+
+
+/* ===================== Start design for tablet========================= */
+@media screen and (min-width:768px) {
+  .h2{
+    font-size: 20px;
+  }
+  /* start header */
+  #top-logo{
+    width:200px;
+  }
+
+  #leaf-logo{
+    width: 90px;
+    margin-right: 110px;
+  }
+
+  .mediaLinks ul li{
+    font-size: 30px;
+  }
+
+  /* End header */
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  /* Start Specials */
+  #h2-specials:before{
+    width: 38%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-specials:after{
+    width: 38%;
+    height: 5px;
+    top: 45%;
+  }
+  /* End Specials */
+
+  /* Start About */
+
+  #h2-about:before{
+    width: 44%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-about:after{
+    width: 44%;
+    height: 5px;
+    top: 45%;
+  }
+  #about-top-content{
+    width: 70%;
+  }
+  #about-text{
+    border: solid 4px #8dbf4b;
+    border-radius: 50px;
+    font-size:25px;
+  }
+  #verde-about-logo{
+    width: 40%;
+  }
+
+  #about-bottom-content{
+    width: 80%;
+  }
+  /* End About */
+  /* Start Contact */
+  #h2-contact:before{
+    width: 37%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-contact:after{
+    width: 37%;
+    height: 5px;
+    top: 45%;
+  }
+  #contact-div{
+    border: solid 3px #8dbf4b;
+    width: 90%;
+    border-radius: 20px;
+
+  }
+  #contact-div div{
+    display: flex;
+    margin: 5px 15%;
+
+
+  }
+  #contact-div div p{
+    font-size: 2vw;
+
+  }
+  /* End Contact */
+  /* start footer */
+  #footer-div{
+    font-size: 1.5vh;
+  }
+    /* End footer */
+}
+/* ===================== End design for tablet========================= */
+/* ===================== Start design for desktop========================= */
+
+@media screen and (min-width:1200px) {
+  .h2{
+    font-size: 20px;
+  }
+  /* start header */
+  #top-logo{
+    width:200px;
+  }
+
+  #leaf-logo{
+    width: 90px;
+    margin-right: 110px;
+  }
+
+  .mediaLinks ul li{
+    font-size: 30px;
+  }
+
+  /* End header */
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Start Specials */
+  #h2-specials:before{
+    width: 42%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-specials:after{
+    width: 42%;
+    height: 5px;
+    top: 45%;
+  }
+
+  #specials-containe {
+  
+  }
+  /* End Specials */
+
+  /* Start About */
+
+  #h2-about:before{
+    width: 45%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-about:after{
+    width: 45%;
+    height: 5px;
+    top: 45%;
+  }
+  #about-top-content{
+    width: 70%;
+  }
+  #about-text{
+    border: solid 4px #8dbf4b;
+    border-radius: 50px;
+    font-size:25px;
+  }
+  #verde-about-logo{
+    width: 40%;
+  }
+
+  #about-bottom-content{
+    width: 80%;
+  }
+  /* End About */
+  /* Start Contact */
+  #h2-contact:before{
+    width: 40%;
+    height: 5px;
+    top: 45%;
+  }
+  #h2-contact:after{
+    width: 40%;
+    height: 5px;
+    top: 45%;
+  }
+  #contact-div{
+    border: solid 3px #8dbf4b;
+    width: 90%;
+    border-radius: 20px;
+
+  }
+  #contact-div div{
+    display: flex;
+    margin: 5px 15%;
+
+  }
+  #contact-div div p{
+    font-size: 15px;
+
+  }
+  /* End Contact */
+}
+
+/* ===================== End design for desktop ========================= */
